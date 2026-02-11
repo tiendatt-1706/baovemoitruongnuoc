@@ -1,0 +1,1103 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bảo Vệ Môi Trường Nước</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo">
+                    <i class="fas fa-water"></i>
+                    <span>GROUP7</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#overview">Tổng quan</a></li>
+                    <li><a href="#causes">Nguyên nhân</a></li>
+                    <li><a href="#effects">Hệ lụy</a></li>
+                    <li><a href="#solutions">Giải pháp</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page 1: Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="water-wave wave1"></div>
+                <div class="water-wave wave2"></div>
+                <div class="water-wave wave3"></div>
+            </div>
+
+            <div class="hero-main">
+                <div class="hero-left">
+                    <h1 class="hero-title animate-fade-up">
+                        HÀNH TINH HAY<br />
+                        <span class="highlight">BÃI RÁC ?</span>
+                    </h1>
+                    <p class="hero-desc animate-fade-up delay-1">
+                        Nước là khởi nguồn của sự sống. Nhưng mỗi phút trôi qua,
+                        chúng ta đang biến đại dương thành bãi rác khổng lồ. Hãy
+                        hành động trước khi giọt nước cuối cùng cạn kiệt.
+                    </p>
+                    <div class="hero-buttons animate-fade-up delay-2">
+                        <button class="cta-action-btn" id="actionBtn">
+                            <i class="fas fa-leaf"></i>
+                            <span>Đánh thức sự sống</span>
+                        </button>
+                        <a href="#overview" class="cta-explore-btn">
+                            <span>Khám phá ngay</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="earth-container" id="earthContainer">
+                        <img
+                            src="./assets/img/earth.png"
+                            alt="Trái đất ô nhiễm"
+                            class="earth earth-trash active"
+                        />
+                        <img
+                            src="./assets/img/earth-clean.png"
+                            alt="Trái đất sạch"
+                            class="earth earth-clean"
+                        />
+
+                        <!-- Floating particles -->
+                        <div class="floating-particles">
+                            <span class="particle trash">🗑️</span>
+                            <span class="particle trash">🥤</span>
+                            <span class="particle trash">🧴</span>
+                            <span class="particle clean">💧</span>
+                            <span class="particle clean">🐬</span>
+                            <span class="particle clean">🌊</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 2: Tổng quan & Thực trạng -->
+        <section id="overview" class="section overview">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title scroll-animate">
+                        Tổng Quan & Thực Trạng
+                    </h2>
+                    <div class="title-underline scroll-animate"></div>
+                </div>
+
+                <!-- Image Gallery - Thực trạng -->
+                <div class="image-showcase scroll-animate fade-up">
+                    <div class="showcase-item">
+                        <img
+                            src="./assets/img/tolich.jpg"
+                            alt="Ô nhiễm sông ngòi"
+                            loading="lazy"
+                        />
+                        <p class="image-caption">
+                            Sông Tô Lịch - một trong những con sông ô nhiễm nhất
+                            Việt Nam
+                        </p>
+                    </div>
+                    <div class="showcase-item">
+                        <img
+                            src="./assets/img/ncthai.jpg"
+                            alt="Nước thải công nghiệp"
+                            loading="lazy"
+                        />
+                        <p class="image-caption">
+                            Nước thải từ nhà máy xả trực tiếp ra môi trường
+                        </p>
+                    </div>
+                    <div class="showcase-item">
+                        <img
+                            src="./assets/img/racdaiduong.jpg"
+                            alt="Rác thải nhựa dưới biển"
+                            loading="lazy"
+                        />
+                        <p class="image-caption">
+                            Rác thải nhựa đang hủy hoại đại dương
+                        </p>
+                    </div>
+                </div>
+
+                <div class="overview-content">
+                    <div class="overview-text scroll-animate slide-left">
+                        <h3>Thực trạng ô nhiễm nước toàn cầu</h3>
+                        <p>
+                            Ô nhiễm nguồn nước đang là một trong những vấn đề
+                            môi trường nghiêm trọng nhất mà nhân loại đang phải
+                            đối mặt. Theo báo cáo của Liên Hợp Quốc, hơn 2 tỷ
+                            người trên thế giới đang thiếu nước sạch để sử dụng
+                            hàng ngày.
+                        </p>
+                        <p>
+                            Tại Việt Nam, tình trạng ô nhiễm nước tại các sông,
+                            hồ ngày càng trầm trọng. Nhiều con sông đã trở nên
+                            "chết" do chất thải công nghiệp và sinh hoạt chưa
+                            qua xử lý.
+                        </p>
+                    </div>
+                    <div class="overview-stats scroll-animate slide-right">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-globe-asia"></i>
+                            </div>
+                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-label">
+                                Tỷ người thiếu nước sạch
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <div class="stat-number" data-count="80">0</div>
+                            <div class="stat-label">
+                                % nước thải không xử lý
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-fish"></i>
+                            </div>
+                            <div class="stat-number" data-count="1000">0</div>
+                            <div class="stat-label">
+                                Loài sinh vật bị đe dọa
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="water-facts scroll-animate fade-up">
+                    <h3>Những con số đáng báo động</h3>
+                    <div class="facts-grid">
+                        <div class="fact-item">
+                            <div class="fact-icon">
+                                <i class="fas fa-tint-slash"></i>
+                            </div>
+                            <p>
+                                71% bề mặt Trái Đất được bao phủ bởi nước, nhưng
+                                chỉ 3% là nước ngọt
+                            </p>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <p>
+                                Mỗi ngày có hơn 2 triệu tấn chất thải được đổ
+                                vào nguồn nước
+                            </p>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-icon">
+                                <i class="fas fa-skull-crossbones"></i>
+                            </div>
+                            <p>
+                                Ô nhiễm nước gây ra 1,8 triệu ca tử vong mỗi năm
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="water-bubbles">
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+            </div>
+        </section>
+
+        <!-- Page 3: Nguyên nhân -->
+        <section id="causes" class="section causes">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title scroll-animate">Nguyên Nhân</h2>
+                    <div class="title-underline scroll-animate"></div>
+                </div>
+
+                <div class="causes-grid">
+                    <div class="cause-card scroll-animate fade-up delay-1">
+                        <div class="cause-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3>Chất thải công nghiệp</h3>
+                        <p>
+                            Các nhà máy, xí nghiệp xả thải trực tiếp ra sông, hồ
+                            mà không qua xử lý, chứa nhiều hóa chất độc hại như
+                            kim loại nặng, thuốc nhuộm.
+                        </p>
+                    </div>
+
+                    <div class="cause-card scroll-animate fade-up delay-2">
+                        <div class="cause-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Nước thải sinh hoạt</h3>
+                        <p>
+                            Nước thải từ hộ gia đình chứa chất tẩy rửa, dầu mỡ,
+                            vi khuẩn được xả trực tiếp vào cống rãnh và nguồn
+                            nước tự nhiên.
+                        </p>
+                    </div>
+
+                    <div class="cause-card scroll-animate fade-up delay-3">
+                        <div class="cause-icon">
+                            <i class="fas fa-tractor"></i>
+                        </div>
+                        <h3>Hoạt động nông nghiệp</h3>
+                        <p>
+                            Thuốc trừ sâu, phân bón hóa học, chất thải chăn nuôi
+                            ngấm vào đất và chảy vào nguồn nước ngầm, gây ô
+                            nhiễm nghiêm trọng.
+                        </p>
+                    </div>
+
+                    <div class="cause-card scroll-animate fade-up delay-4">
+                        <div class="cause-icon">
+                            <i class="fas fa-trash-alt"></i>
+                        </div>
+                        <h3>Rác thải nhựa</h3>
+                        <p>
+                            Hàng triệu tấn nhựa bị vứt xuống biển và sông mỗi
+                            năm, phân hủy thành vi nhựa, xâm nhập vào chuỗi thức
+                            ăn.
+                        </p>
+                    </div>
+
+                    <div class="cause-card scroll-animate fade-up delay-5">
+                        <div class="cause-icon">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                        <h3>Sự cố tràn dầu</h3>
+                        <p>
+                            Các vụ tràn dầu từ tàu chở dầu và giàn khoan gây ra
+                            thảm họa môi trường, hủy diệt hệ sinh thái biển.
+                        </p>
+                    </div>
+
+                    <div class="cause-card scroll-animate fade-up delay-6">
+                        <div class="cause-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h3>Khai thác khoáng sản</h3>
+                        <p>
+                            Hoạt động khai thác mỏ thải ra các chất độc hại như
+                            asen, thủy ngân, làm ô nhiễm nguồn nước ngầm và bề
+                            mặt.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Image Gallery - Nguyên nhân -->
+                <div class="causes-gallery scroll-animate fade-up">
+                    <h3 class="gallery-title">Hình ảnh thực tế</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item large">
+                            <img
+                                src="./assets/img/trandau.jpg"
+                                alt="Nhà máy xả thải"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="gallery-item">
+                            <img
+                                src="./assets/img/rac.png"
+                                alt="Rác thải nhựa"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="gallery-item">
+                            <img
+                                src="./assets/img/nong-nghiep-1.jpg"
+                                alt="Nông nghiệp gây ô nhiễm"
+                                loading="lazy"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 4: Hệ lụy & Tác động -->
+        <section id="effects" class="section effects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title scroll-animate">
+                        Hệ Lụy & Tác Động
+                    </h2>
+                    <div class="title-underline scroll-animate"></div>
+                </div>
+
+                <div class="effects-wrapper">
+                    <div class="effect-category scroll-animate slide-left">
+                        <div class="category-header">
+                            <i class="fas fa-user-injured"></i>
+                            <h3>Tác động đến sức khỏe con người</h3>
+                        </div>
+                        <ul class="effect-list">
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Bệnh tiêu
+                                chảy, tả, thương hàn
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Các bệnh về
+                                da và mắt
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Nguy cơ ung
+                                thư do kim loại nặng
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Suy giảm hệ
+                                miễn dịch
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Ảnh hưởng
+                                đến phát triển trí não trẻ em
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="effect-category scroll-animate slide-right">
+                        <div class="category-header">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Tác động đến hệ sinh thái</h3>
+                        </div>
+                        <ul class="effect-list">
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Chết hàng
+                                loạt các loài thủy sinh
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Phá hủy rạn
+                                san hô
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Mất cân
+                                bằng sinh thái
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Tích tụ độc
+                                tố trong chuỗi thức ăn
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Suy giảm đa
+                                dạng sinh học
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="effect-category scroll-animate fade-up">
+                        <div class="category-header">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Tác động đến kinh tế - xã hội</h3>
+                        </div>
+                        <ul class="effect-list">
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Chi phí y
+                                tế tăng cao
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Giảm năng
+                                suất lao động
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Ảnh hưởng
+                                du lịch và giải trí
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Giảm sản
+                                lượng thủy sản
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i> Khan hiếm
+                                nước sạch, giá nước tăng
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Infographic: Hành trình của giọt nước ô nhiễm -->
+                <div class="pollution-journey scroll-animate zoom-in">
+                    <h3 class="journey-title">
+                        <i class="fas fa-route"></i>
+                        Hành Trình Của Giọt Nước Ô Nhiễm
+                    </h3>
+
+                    <div class="journey-timeline">
+                        <!-- Step 1 -->
+                        <div class="journey-step">
+                            <div class="step-icon toxic">
+                                <i class="fas fa-skull-crossbones"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="step-content">
+                                <h4>Nguồn gốc độc hại</h4>
+                                <p>
+                                    Hóa chất, kim loại nặng, vi khuẩn xâm nhập
+                                    nguồn nước
+                                </p>
+                                <div class="step-stat">
+                                    <span class="stat-value">80%</span>
+                                    <span class="stat-desc"
+                                        >nước thải chưa xử lý</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="step-connector">
+                                <div class="water-drop-animated">💧</div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="journey-step">
+                            <div class="step-icon ecosystem">
+                                <i class="fas fa-fish-fins"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="step-content">
+                                <h4>Sinh thái sụp đổ</h4>
+                                <p>
+                                    Động vật thủy sinh chết hàng loạt, chuỗi
+                                    thức ăn bị phá vỡ
+                                </p>
+                                <div class="step-stat">
+                                    <span class="stat-value">40%</span>
+                                    <span class="stat-desc"
+                                        >loài cá nguy cấp</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="step-connector">
+                                <div class="water-drop-animated">💧</div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="journey-step">
+                            <div class="step-icon health">
+                                <i class="fas fa-virus"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="step-content">
+                                <h4>Sức khỏe đe dọa</h4>
+                                <p>
+                                    Bệnh tật lây lan, ung thư, dị tật bẩm sinh
+                                    gia tăng
+                                </p>
+                                <div class="step-stat">
+                                    <span class="stat-value">2.3 triệu</span>
+                                    <span class="stat-desc"
+                                        >ca tử vong/năm</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="step-connector">
+                                <div class="water-drop-animated">💧</div>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="journey-step">
+                            <div class="step-icon economy">
+                                <i class="fas fa-chart-line-down"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="step-content">
+                                <h4>Kinh tế suy thoái</h4>
+                                <p>
+                                    Ngư nghiệp, du lịch, nông nghiệp thiệt hại
+                                    nặng nề
+                                </p>
+                                <div class="step-stat">
+                                    <span class="stat-value">$260 tỷ</span>
+                                    <span class="stat-desc">thiệt hại/năm</span>
+                                </div>
+                            </div>
+                            <div class="step-connector">
+                                <div class="water-drop-animated">💧</div>
+                            </div>
+                        </div>
+
+                        <!-- Step 5 - Final -->
+                        <div class="journey-step final">
+                            <div class="step-icon future">
+                                <i class="fas fa-children"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="step-content">
+                                <h4>Tương lai bất định</h4>
+                                <p>
+                                    Thế hệ sau gánh chịu hậu quả từ hành động
+                                    của chúng ta hôm nay
+                                </p>
+                                <div class="step-question">
+                                    <i class="fas fa-question-circle"></i>
+                                    Bạn sẽ làm gì?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Quiz + Community Counter -->
+                    <div class="journey-interactive">
+                        <!-- Community Counter -->
+                        <div class="community-counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-hand-holding-water"></i>
+                            </div>
+                            <div class="counter-content">
+                                <div class="counter-number">
+                                    <span
+                                        id="communityCount"
+                                        data-target="12847"
+                                        >0</span
+                                    >
+                                    <span class="counter-plus">+</span>
+                                </div>
+                                <p class="counter-label">
+                                    người đã cam kết bảo vệ nguồn nước
+                                </p>
+                            </div>
+                            <div class="counter-wave">
+                                <div class="wave-fill"></div>
+                            </div>
+                        </div>
+
+                        <!-- Mini Quiz -->
+                        <div class="water-quiz">
+                            <div class="quiz-header">
+                                <i class="fas fa-brain"></i>
+                                <h4>Kiểm tra kiến thức của bạn</h4>
+                            </div>
+
+                            <div class="quiz-container" id="quizContainer">
+                                <!-- Question 1 -->
+                                <div
+                                    class="quiz-question active"
+                                    data-question="1"
+                                >
+                                    <p class="question-text">
+                                        <span class="q-number">1/3</span>
+                                        Bao nhiêu % nước thải tại các nước đang
+                                        phát triển chưa được xử lý?
+                                    </p>
+                                    <div class="quiz-options">
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            40%
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            60%
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="true"
+                                        >
+                                            80%
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            95%
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Question 2 -->
+                                <div class="quiz-question" data-question="2">
+                                    <p class="question-text">
+                                        <span class="q-number">2/3</span>
+                                        Mỗi năm có bao nhiêu người tử vong do
+                                        nước ô nhiễm?
+                                    </p>
+                                    <div class="quiz-options">
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            500.000
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            1 triệu
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="true"
+                                        >
+                                            2.3 triệu
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            5 triệu
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Question 3 -->
+                                <div class="quiz-question" data-question="3">
+                                    <p class="question-text">
+                                        <span class="q-number">3/3</span>
+                                        Hành động nào giúp bảo vệ nguồn nước
+                                        HIỆU QUẢ nhất?
+                                    </p>
+                                    <div class="quiz-options">
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            Chỉ tiết kiệm nước
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="true"
+                                        >
+                                            Kết hợp nhiều giải pháp
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            Chờ chính phủ hành động
+                                        </button>
+                                        <button
+                                            class="quiz-option"
+                                            data-correct="false"
+                                        >
+                                            Dùng nước đóng chai
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Quiz Result -->
+                                <div class="quiz-result" id="quizResult">
+                                    <div class="result-icon">
+                                        <i class="fas fa-trophy"></i>
+                                    </div>
+                                    <h4 class="result-title">Xuất sắc!</h4>
+                                    <p class="result-score">
+                                        Bạn trả lời đúng
+                                        <span id="correctCount">0</span>/3 câu
+                                    </p>
+                                    <p class="result-message">
+                                        Bạn đã hiểu rõ về vấn đề ô nhiễm nước!
+                                    </p>
+                                    <div class="result-actions">
+                                        <button
+                                            class="btn-join-community"
+                                            id="joinCommunity"
+                                        >
+                                            <i class="fas fa-users"></i>
+                                            Tham gia cộng đồng
+                                        </button>
+                                        <a
+                                            href="#solutions"
+                                            class="btn-see-solutions"
+                                        >
+                                            <i class="fas fa-lightbulb"></i>
+                                            Xem giải pháp
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="quiz-progress">
+                                <div class="progress-bar">
+                                    <div
+                                        class="progress-fill"
+                                        id="quizProgress"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 5: Giải pháp & Hành động -->
+        <section id="solutions" class="section solutions">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title scroll-animate">
+                        Giải Pháp & Hành Động
+                    </h2>
+                    <div class="title-underline scroll-animate"></div>
+                </div>
+
+                <div class="solutions-tabs scroll-animate fade-up">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="individual">
+                            Cá nhân
+                        </button>
+                        <button class="tab-btn" data-tab="community">
+                            Cộng đồng
+                        </button>
+                        <button class="tab-btn" data-tab="government">
+                            Chính phủ
+                        </button>
+                    </div>
+
+                    <div class="tab-contents">
+                        <div class="tab-content active" id="individual">
+                            <div class="solution-items">
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-faucet"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Tiết kiệm nước</h4>
+                                        <p>
+                                            Tắt vòi khi không sử dụng, sửa chữa
+                                            rò rỉ, sử dụng thiết bị tiết kiệm
+                                            nước.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-recycle"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Giảm sử dụng nhựa</h4>
+                                        <p>
+                                            Sử dụng túi vải, chai nước tái sử
+                                            dụng, từ chối đồ nhựa dùng một lần.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-pump-soap"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Sử dụng sản phẩm thân thiện</h4>
+                                        <p>
+                                            Chọn chất tẩy rửa, xà phòng sinh
+                                            học, không chứa hóa chất độc hại.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-trash"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Xử lý rác đúng cách</h4>
+                                        <p>
+                                            Phân loại rác, không vứt rác xuống
+                                            cống, sông, hồ.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="community">
+                            <div class="solution-items">
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-hands-helping"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Tổ chức dọn dẹp</h4>
+                                        <p>
+                                            Tham gia các hoạt động thu gom rác
+                                            tại bờ biển, sông, hồ.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-bullhorn"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Tuyên truyền nâng cao nhận thức</h4>
+                                        <p>
+                                            Tổ chức các buổi workshop, chiến
+                                            dịch về bảo vệ nguồn nước.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-eye"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Giám sát, báo cáo</h4>
+                                        <p>
+                                            Theo dõi và báo cáo các hành vi xả
+                                            thải trái phép.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-seedling"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Trồng cây xanh</h4>
+                                        <p>
+                                            Bảo vệ vùng đệm ven sông, hồ bằng
+                                            việc trồng cây.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="government">
+                            <div class="solution-items">
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-gavel"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Hoàn thiện pháp luật</h4>
+                                        <p>
+                                            Ban hành và thực thi nghiêm các quy
+                                            định về bảo vệ nguồn nước.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Đầu tư hạ tầng</h4>
+                                        <p>
+                                            Xây dựng hệ thống xử lý nước thải
+                                            hiện đại, đầy đủ.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-flask"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Nghiên cứu công nghệ</h4>
+                                        <p>
+                                            Đầu tư nghiên cứu và áp dụng công
+                                            nghệ xử lý nước tiên tiến.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <div class="solution-text">
+                                        <h4>Hợp tác quốc tế</h4>
+                                        <p>
+                                            Phối hợp với các nước trong bảo vệ
+                                            nguồn nước xuyên biên giới.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-cta scroll-animate fade-up">
+                    <h3>Hãy hành động ngay hôm nay!</h3>
+                    <p>
+                        Mỗi hành động nhỏ của bạn đều góp phần tạo nên thay đổi
+                        lớn
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn-primary"
+                            >Tham gia cùng chúng tôi</a
+                        >
+                        <a href="#" class="btn-secondary">Tải hướng dẫn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 6: Liên hệ -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title scroll-animate">Liên Hệ</h2>
+                    <div class="title-underline scroll-animate"></div>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info scroll-animate slide-left">
+                        <h3>Kết nối với chúng tôi</h3>
+                        <p>
+                            Hãy liên hệ để cùng nhau bảo vệ nguồn nước cho tương
+                            lai
+                        </p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span
+                                    >123 Đường Xanh, Quận 1, TP. Hồ Chí
+                                    Minh</span
+                                >
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+84 123 456 789</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@savewater.vn</span>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-youtube"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form scroll-animate slide-right">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Họ và tên"
+                                    required
+                                />
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="Email"
+                                    required
+                                />
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    placeholder="Chủ đề"
+                                />
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            <div class="form-group">
+                                <textarea
+                                    id="message"
+                                    placeholder="Nội dung tin nhắn"
+                                    rows="5"
+                                    required
+                                ></textarea>
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <button type="submit" class="btn-submit">
+                                <span>Gửi tin nhắn</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-wave">
+                <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                    <path
+                        d="M0,50 C150,100 350,0 500,50 C650,100 850,0 1000,50 C1150,100 1350,0 1440,50 L1440,100 L0,100 Z"
+                    ></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <a href="#home" class="logo">
+                            <i class="fas fa-water"></i>
+                            <span>SaveWater</span>
+                        </a>
+                        <p>Mỗi giọt nước chúng ta cứu lấy hôm nay chính là món quà vô giá cho thế hệ mai sau. Đừng để hành trình của nước kết thúc trong rác thải và hóa chất. Hãy cùng chúng tôi viết tiếp chương mới cho những dòng sông xanh</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Liên kết nhanh</h4>
+                        <ul>
+                            <li><a href="#overview">Tổng quan</a></li>
+                            <li><a href="#causes">Nguyên nhân</a></li>
+                            <li><a href="#effects">Hệ lụy</a></li>
+                            <li><a href="#solutions">Giải pháp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h4>Đăng ký nhận tin</h4>
+                        <p>Nhận thông tin mới nhất về bảo vệ môi trường nước</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Email của bạn" />
+                            <button type="submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!-- <div class="footer-bottom">
+                    <p>&copy; 2026 SaveWater. Tất cả quyền được bảo lưu.</p>
+                </div> -->
+            </div>
+        </footer>
+
+        <!-- Back to top button -->
+        <a href="#home" class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
