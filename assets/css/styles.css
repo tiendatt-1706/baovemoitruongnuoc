@@ -547,7 +547,15 @@ img {
         justify-content: center;
     }
     
+    .hero-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
     .earth-container {
+        width: 350px;
+        height: 350px;
         max-width: 350px;
     }
     
@@ -557,6 +565,10 @@ img {
 }
 
 @media (max-width: 576px) {
+    .logo {
+        margin-left: -15px;
+    }
+    
     .hero-title {
         font-size: 2.2rem;
     }
@@ -2333,7 +2345,8 @@ img {
    FOOTER
    ================================ */
 .footer {
-    background: var(--dark-color);
+    /* background: var(--dark-color); */
+    background: #0077b6;
     color: var(--white);
     padding-top: 0;
     position: relative;
@@ -2346,9 +2359,7 @@ img {
 }
 
 .footer-wave {
-    position: relative;
-    height: 60px;
-    overflow: hidden;
+    display: none;
 }
 
 .footer-wave svg {
@@ -2379,7 +2390,7 @@ img {
 }
 
 .footer-brand p {
-    color: rgba(255, 255, 255, 0.7);
+    color: #f8f7f7;
     line-height: 1.6;
     font-size: 1.1rem;
 }
@@ -2406,7 +2417,8 @@ img {
 }
 
 .footer-links ul li a:hover {
-    color: var(--accent-color);
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 198, 255, 0.6);
     padding-left: 5px;
 }
 
