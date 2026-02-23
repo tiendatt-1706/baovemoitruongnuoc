@@ -536,7 +536,7 @@
                         <!-- Step 4 -->
                         <div class="journey-step">
                             <div class="step-icon economy">
-                                <i class="fas fa-chart-line-down"></i>
+                                <i class="fas fa-arrow-trend-down"></i>
                                 <div class="icon-ring"></div>
                             </div>
                             <div class="step-content">
@@ -958,7 +958,13 @@
                         <a href="#contact" class="btn-primary"
                             >Tham gia cùng chúng tôi</a
                         >
-                        <a href="#" class="btn-secondary">Tải hướng dẫn</a>
+                        <button
+                            class="btn-secondary"
+                            id="shareBtn"
+                            onclick="shareWebsite()"
+                        >
+                            <i class="fas fa-share-alt"></i> Chia sẻ bài viết
+                        </button>
                     </div>
                 </div>
             </div>
@@ -1098,15 +1104,16 @@
                             <li><a href="#solutions">Giải pháp</a></li>
                         </ul>
                     </div>
-                    <div class="footer-newsletter">
-                        <h4>Đăng ký nhận tin</h4>
-                        <p>Nhận thông tin mới nhất về bảo vệ môi trường nước</p>
-                        <form class="newsletter-form">
-                            <input type="email" placeholder="Email của bạn" />
-                            <button type="submit">
-                                <i class="fas fa-arrow-right"></i>
-                            </button>
-                        </form>
+                    <div class="footer-references">
+                        <h4>Nguồn & Tài liệu tham khảo</h4>
+                        <!-- <p>Đọc thêm từ các nguồn uy tín</p> -->
+                        <ul class="reference-links">
+                            <li><a href="https://vi.wikipedia.org/wiki/%C3%94_nhi%E1%BB%85m_n%C6%B0%E1%BB%9Bc" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Wikipedia - Ô nhiễm nước</a></li>
+                            <li><a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> WHO - Nước uống an toàn</a></li>
+                            <li><a href="https://www.unep.org/explore-topics/water" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> UNEP - Tài nguyên nước</a></li>
+                            <li><a href="https://vi.wikipedia.org/wiki/B%E1%BA%A3o_v%E1%BB%87_m%C3%B4i_tr%C6%B0%E1%BB%9Dng" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Wikipedia - Bảo vệ môi trường</a></li>
+                            <li><a href="https://www.worldwildlife.org/threats/water-scarcity" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> WWF - Khan hiếm nước</a></li>
+                        </ul>
                     </div>
                 </div>
                 <!-- <div class="footer-bottom">
