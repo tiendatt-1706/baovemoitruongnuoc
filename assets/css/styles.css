@@ -30,13 +30,26 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color);
     line-height: 1.6;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
+    position: relative;
+}
+
+@supports (overflow: clip) {
+    html,
+    body {
+        overflow-x: clip;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -185,6 +198,10 @@ img {
 
 .hero.clean-mode {
     background: linear-gradient(135deg, #48cae4 0%, #00b4d8 50%, #0077b6 100%);
+}
+
+.hero.clean-mode .water-wave {
+    opacity: 0.18;
 }
 
 .hero-bg {
@@ -570,6 +587,10 @@ img {
         margin-left: -15px;
         font-size: 1.3rem;
     }
+
+    .hero .water-wave {
+        display: none;
+    }
     
     .logo-header {
         width: 50px;
@@ -711,6 +732,18 @@ img {
 
 .slide-right.visible {
     transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+    .slide-left,
+    .slide-right {
+        transform: translateY(30px);
+    }
+
+    .slide-left.visible,
+    .slide-right.visible {
+        transform: translateY(0);
+    }
 }
 
 .fade-up {
